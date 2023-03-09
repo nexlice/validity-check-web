@@ -15,10 +15,11 @@ elInputUsername.value = "박해커"
 let elFailtureMessage = document.querySelector(".failure-message")
 console.log(elFailtureMessage)
 
-elFailtureMessage.style.display = 'none'
+// elFailtureMessage.style.display = 'none'
 
 // 다시 보이게 하려면 다음과 같이 한다.
 // elFailtureMessage.style.display = 'block'
 
 // 하지만 실제로 현업에서 쓰이는 방법이 있다..
 // css 파일과 클래스를 조합..해보자.
+// css에 .hide 클래스에 display : none을 달고 html에서 가릴 태그에 hide 클래스 넣어주기

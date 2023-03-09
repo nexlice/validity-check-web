@@ -1,3 +1,11 @@
 body {
     background-color: lightgoldenrodyellow;
 }
+
+/*
+    .은 클래스를 의미.
+    이걸 추가했으니 js로 수정하자.
+*/
+.hide{
+    display: none;
+}
